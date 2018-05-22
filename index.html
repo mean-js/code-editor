@@ -27,9 +27,22 @@
                 <div class="col-sm-3"></div>
 
                 <div class="col-sm-6">
-                    <div class="row bg-warning rounded" style="height: 300px; ">
-                        <div class="col-sm-12" ui-ace style="height: 99%;">
-                            Ace here
+                    <div class="row rounded bg-light" >
+                        <div class="col-sm-12 rounded" >
+                            <div class="editor" style="height: 300px; " ui-ace="{ mode: 'javascript', theme: 'monokai' }" ng-model="code"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6" >
+                            <button type="button" ng-click="fetchValue();" class="btn btn-block btn-outline-info btn-lg">
+                                Fetch Value
+                            </button>
+                        </div>
+                        <div class="col-sm-6" >
+                            <button type="button" ng-click="resetValue();" class="btn btn-block btn-outline-secondary btn-lg">
+                                Reset Value
+                            </button>
                         </div>
                     </div>
                 </div>
