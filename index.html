@@ -1,0 +1,41 @@
+<html ng-app="app">
+    <head>
+        <title>CODE EDITOR</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/ace-builds/src-min-noconflict/ace.js"></script>
+        <script src="bower_components/angular-ui-ace/ui-ace.min.js"></script>
+
+        <script src="src/app.js"></script>
+
+        <style>
+            
+        </style>
+    </head>
+
+    <body ng-controller="codeController">
+        <div class="container-fuluid">
+            <div class="row bg-dark fixed-top" style="height: 50px;">
+                <div class="col-sm-2  text-white d-flex justify-content-start align-items-center">
+                    CODE EDITOR
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top:51px;">
+                <div class="col-sm-3"></div>
+
+                <div class="col-sm-6">
+                    <div class="row bg-warning rounded" style="height: 300px; ">
+                        <div class="col-sm-12" ui-ace style="height: 99%;">
+                            Ace here
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+    </body>
+</html>

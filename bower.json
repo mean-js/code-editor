@@ -1,0 +1,22 @@
+{
+  "name": "codeeditor",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "santosh <santosh.ece06@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.0",
+    "bootstrap": "^4.1.1",
+    "angular-ui-ace": "bower"
+  }
+}
